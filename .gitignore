@@ -1,0 +1,25 @@
+# Python cache and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local environment variables and credentials
+.env
+.env.*
+
+# Datasets, checkpoints, and experiment outputs
+data/
+checkpoints/
+outputs/
+*.pth
+*.pt
+*.ckpt
+*.log
+
